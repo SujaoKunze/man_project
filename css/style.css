@@ -1,0 +1,77 @@
+h1 {
+    font-size: 50px;
+    font-style: bold;
+    color: #ddc6bd;
+    text-align: center;   
+    
+    
+}
+.phonenumber {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.photo {
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 40px; left: 400px;
+}
+.n1 {
+    color: #ddc6bd;
+    font-weight: bolder;
+    font-size: 25px;
+    transform: translate(1000px, -450px);
+    width: 200px;
+    font-family: 'Roboto Mono';
+}
+.n2 {
+    width: 260px;
+    font-size: 20px;
+    position: relative;
+    bottom: 430px; left: 1000px;
+}
+.phone {
+    position: relative;
+    bottom: 760px; left: 820px;
+    color: #ddc6bd;
+}
+.line {
+    position: relative;
+    bottom: 450px; left: 960px;
+    width: 200;;
+}
+.line2 {
+    position: relative;
+    bottom: 450px; left: 1000px;
+    width: 200;;
+}
+.line3 {
+    position: relative;
+    bottom: 450px; left: 855px;
+    width: 200;;
+}
+
+body {
+    
+}
+
+a.tel {
+     color: black;
+     position: relative;
+     padding-left: 35px;
+}
+
+a.tel::before {
+    content: url('../img/icons8-phone-30.png');
+
+    /* position: absolute; */
+    /* top: -3px; */
+    /* left: 0; */
+
+    /* position: fixed; 
+    bottom: 50px;
+    right: 50px; */
+}
